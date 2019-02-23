@@ -112,7 +112,8 @@
         const modalMovieData = findMovie(id, category)
         $modalTitle.innerText = modalMovieData.title
         $modalImg.src = modalMovieData.medium_cover_image
-        $modalDescription.innerText = modalMovieData.description_full
+        const $description = modalMovieData.description_full
+        $modalDescription.innerText = $description
     }
 
     //-- función convertir texto html estructurado a código HTML --//

@@ -76,6 +76,7 @@
 }
 .modal-content p {
   align-self: center;
+  font-size: 14px;
 }
 /*@keyframes animationIn {*/
 @keyframes modalIn {
